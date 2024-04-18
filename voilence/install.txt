@@ -1,0 +1,1 @@
+pip install matplotlib numpy telepot opencv-python tensorflow opencv-contrib-python keras pytz fastapi uvicorn python-multipart moviepy

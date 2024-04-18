@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>violence detection by video surveillance</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <!-- ====== Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto"><a href="index.html">violence detection system</a></h1>
+
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active " href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About Us</a></li>
+          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          <li><a class="nav-link scrollto" href="#signup">SignUp</a></li>
+          <li><a class="nav-link scrollto" href="#login">LogIn</a></li>
+
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url(assets/img/slide/sld-1.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Welcome to Violence Detection System</h2>
+              <p class=" txt animate__animated animate__fadeInUp scrollto">A modern system to detect violence and
+                non-violence.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url(assets/img/slide/sld-3.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Solving Violence Issues Efficiently & Accuratly </h2>
+              <p class="txt animate__animated animate__fadeInUp scrollto">Generate accurate results by using deep
+                learning algorithms.</p>
+
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Slide 3 -->
+        <div class="carousel-item" style="background-image: url(assets/img/slide/sld-2.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Making a Crime Free Society.</h2>
+              <p class=" txt animate__animated animate__fadeInUp scrollto">Reducing human efforts by automated system.
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About</h2>
+
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2">
+            <video autoplay muted loop id="myVideo">
+              <source src="assets/videos/V_9.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3>Violence Detection System:</h3>
+            <p>
+              Violence is defined as the intentional use of physical force or power, threatened or actual, against
+              oneself or a group of community that results in an injury, death or psychological harm.
+            </p>
+            <p>Violence Detection System is a stand-alone web application developed to distinguish between violent and
+              non-violent content within videos. This project prioritizes accuracy and ensures enhanced safety by
+              efficiently identifying violent elements in videos.</p>
+            <h3>Background working:</h3>
+            <p>
+              In this project we use mobilenetv2 algorithm. MobileNetV2 is a remarkably efficient deep learning model
+              architecture that was designed for computer vision tasks, with a particular focus on image classification
+              and object detection.
+            </p>
+            <p>To use this system, the user must be <a href="#signup">Signup</a> or <a href="#login">Login</a> in the
+              system. After login, the user upload a video for detection. The system use the backend algorithm and
+              detect that the video contain violence or not. </p>
+            <ul>
+              <h3>Our Objectives:</h3>
+              <li><i class="bi bi-check-circled"></i> To solve violation issue using modern technologies. </li>
+              <li><i class="bi bi-check-circled"></i> To reduce the violence rate and other criminal activities.</li>
+              <li><i class="bi bi-check-circled"></i>To handle situation in correct and efficient way. </li>
+            </ul>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+
+
+
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Team</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="assets/img/team/img3.jpeg" alt="">
+              <h4>Ahmed Bilal</h4>
+              <span>Student</span>
+              <p>
+                BCS student from Comsats University Attock Campus
+              </p>
+              <div class="social">
+                <a href="https://mail.google.com">sp20-bcs-019@cuiatk.edu.pk</i></a>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="assets/img/team/img2.jpeg" alt="">
+              <h4>Muhammad Usman</h4>
+              <span>Student</span>
+              <p>
+                BCS student from Comsats University Attock Campus
+              </p>
+              <div class="social">
+                <a href="https://mail.google.com">fa19-bcs-124@cuiatk.edu.pk</i></a>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="assets/img/team/img1.jpeg" alt="">
+              <h4>Dr. Khalid Iqbal</h4>
+              <span>Project Supervisor</span>
+              <p>
+                Associate Professor Comsats University Attock Campus
+              </p>
+              <div class="social">
+                <a href="https://mail.google.com">khalidiqbal@cuiatk.edu.pk</i></a>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+
+
+    <!-- signup form -->
+    <section id="signup" class="signup">
+      <div class="container">
+        <div class="section-title">
+          <h2>SignUp</h2>
+        </div>
+        <div class="row">
+          <p>Are you new Here? SignUp here to use this system.</p>
+          <div class="col-lg-7">
+            <form class="form" action="forms/signUp.php" method="post" onsubmit="return validateForm()">
+              <div class="form-group">
+                <label for="name" class="form-label">Name:</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name: e.g. Ali"
+                  title="Only letters, numbers, and white space allowed in name field." required
+                  onblur="validateName()" oninput="clearErrorMessage('name')">
+                <div id="name-error" class="error-message"></div>
+              </div>
+              <div class="form-group">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" class="form-control" id="email" name="email"
+                  placeholder="Enter your Email address: e.g. xyz123@gmail.com"
+                  title="Invalid email format. please follow the correct email format." required
+                  onblur="validateEmail()" oninput="clearErrorMessage('email')">
+                <div id="email-error" class="error-message"></div>
+              </div>
+              <div class="form-group">
+                <label for="password" class="form-label">Password:</label>
+                <div class="input-group">
+                  <input type="password" class="form-control" id="password" name="password"
+                    placeholder="Enter password. e.g Ab_$'" required onblur="validatePassword()" oninput="clearErrorMessage('password')">
+                  <span class="input-group-text">
+                    <i class="fas fa-eye toggle-password" data-target="password"></i>
+                  </span>
+                  <div id="password-error" class="error-message"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="confirm-password" class="form-label">Confirm Password:</label>
+                <div class="input-group">
+                  <input type="password" class="form-control" id="confirm-password" name="confirm-password"
+                    placeholder="Reenter password " required onblur="validateConfirmPassword()" oninput="clearErrorMessage('confirm-password')">
+                  <span class="input-group-text">
+                    <i class="fas fa-eye toggle-password" data-target="confirm-password"></i>
+                  </span>
+                  <div id="confirm-password-error" class="error-message"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="phone" class="form-label">Phone Number:</label>
+                <input type="tel" class="form-control" id="phone" name="phone"
+                  placeholder="Enter 11 digit phone number" title="Invalid phone number format. Phone number only contains digits."
+                  required onblur="validatePhone()" oninput="clearErrorMessage('phone')">
+                <div id="phone-error" class="error-message"></div>
+              </div>
+              <button type="submit" value="Register" class="btn btn-primary">SignUp</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        function displayErrorMessage(elementId, message) {
+          // Display error message near the input field
+          var errorElement = document.getElementById(elementId + "-error");
+          if (errorElement) {
+            errorElement.textContent = message;
+          }
+        }
+      
+        function clearErrorMessage(elementId) {
+          // Clear error message near the input field
+          var errorElement = document.getElementById(elementId + "-error");
+          if (errorElement) {
+            errorElement.textContent = "";
+          }
+        }
+      
+        function validateName() {
+          var name = document.getElementById("name").value;
+          if (name === "") {
+            displayErrorMessage("name", "Name is required.");
+            return false;
+          } else if (!/^[A-Za-z]+(?:[ A-Za-z ]*)?$/.test(name)) {
+            displayErrorMessage("name", "Only letters and white space allowed in name field.");
+            return false;
+          } else {
+            clearErrorMessage("name");
+            return true;
+          }
+        }
+      
+        function validateEmail() {
+          var email = document.getElementById("email").value;
+          if (email === "") {
+            displayErrorMessage("email", "Email is required.");
+            return false;
+          } else if (!/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,63}$/.test(email)) {
+            displayErrorMessage("email", "Invalid email format.");
+            return false;
+          } else {
+            clearErrorMessage("email");
+            return true;
+          }
+        }
+      
+        function validatePassword() {
+          var password = document.getElementById("password").value;
+          if (password === "") {
+            displayErrorMessage("password", "Password is required.");
+            return false;
+          } else if (!/^[^\s]+$/.test(password)) {
+            displayErrorMessage("password", "Invalid password format.");
+            return false;
+          } else {
+            clearErrorMessage("password");
+            return true;
+          }
+        }
+      
+        function validateConfirmPassword() {
+          var confirmPassword = document.getElementById("confirm-password").value;
+          var password = document.getElementById("password").value;
+          if (confirmPassword === "") {
+            displayErrorMessage("confirm-password", "Confirm password is required.");
+            return false;
+          } else if (confirmPassword !== password) {
+            displayErrorMessage("confirm-password", "Passwords do not match.");
+            return false;
+          } else {
+            clearErrorMessage("confirm-password");
+            return true;
+          }
+        }
+      
+        function validatePhone() {
+          var phone = document.getElementById("phone").value;
+          if (phone === "") {
+            displayErrorMessage("phone", "Phone number is required.");
+            return false;
+          } else if (!/^[0-9]+$/.test(phone) || phone.length !== 11) {
+            displayErrorMessage("phone", "Invalid phone number format.");
+            return false;
+          } else {
+            clearErrorMessage("phone");
+            return true;
+          }
+        }
+      
+        function validateForm() {
+          // Validate each field separately
+          var isNameValid = validateName();
+          var isEmailValid = validateEmail();
+          var isPasswordValid = validatePassword();
+          var isConfirmPasswordValid = validateConfirmPassword();
+          var isPhoneValid = validatePhone();
+      
+          // If all validations pass, allow form submission
+          return isNameValid && isEmailValid && isPasswordValid && isConfirmPasswordValid && isPhoneValid;
+        }
+      </script>
+
+    </section>
+
+    <!-- end of signup form -->
+
+
+    <!-- Login Section -->
+    <section id="login" class="login">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>LogIn</h2>
+
+        </div>
+        <div class="row">
+          <p></p>
+
+          <div class="col-lg-7">
+            <form class="form" action="forms/login.php" method="post">
+
+              <div class="form-group">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Enter your Email address"
+                  required>
+              </div>
+              <div class="form-group">
+                <label for="login-password" class="form-label">Password:</label>
+                <div class="input-group">
+                  <input type="password" class="form-control" id="login-password" name="password" maxlength="6"
+                    placeholder="Enter your login password" required>
+                  <span class="input-group-text">
+                    <i class="fas fa-eye toggle-password" data-target="login-password"></i>
+                  </span>
+                </div>
+              </div>
+
+
+              <button type="submit" value="Submit" class="btn btn-primary">LogIn</button>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </section>
+    <!-- end of Login Section -->
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+
+    <div class="copyright">
+      &copy; Copyright Comsats Attock. All Rights Reserved
+    </div>
+    Developed by <p> Bilal & Usman</p>
+
+
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
